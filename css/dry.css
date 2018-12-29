@@ -1,0 +1,66 @@
+.offscreen,
+.brands img {
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(1px 1px 1px 1px); /* IE 6/7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; /* added line */
+  width: 1px;
+}
+
+.logo,
+.hero h1,
+.call-to-action,
+.categories h4,
+.address {
+  text-transform: uppercase;
+}
+
+.hero,
+.social-media-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.full-width,
+.brands h4 {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.header-content,
+.hero {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.call-to-action {
+  display: inline-block;
+  border: 2px solid #999;
+  padding: .9em;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.call-to-action:hover {
+  background: #999;
+}
+
+
+
+
+
+
+
+

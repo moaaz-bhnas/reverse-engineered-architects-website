@@ -1,0 +1,269 @@
+/* ============================================
+  Base Styles
+============================================== */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font: .85rem/1.5 'Montserrat', sans-serif;
+  color: #333;
+  position: relative;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #999;
+}
+
+p {
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* ============================================
+  Layout Styles
+============================================== */
+
+/* --------------------------------
+  Layout Containers
+----------------------------------- */
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* --------------------------------
+  Header
+----------------------------------- */
+
+.main-header {
+  padding: .2rem 0 1.2rem;
+}
+
+/* --- Logo --- */
+.logo {
+  font-weight: 500;
+  font-size: 1.15rem;
+  letter-spacing: .17em;
+  color: inherit;
+  padding: .8em 0;
+}
+
+.logo,
+.main-nav a:not(.call-to-action){
+  display: block;
+}
+
+/* ----- Navigation ----- */
+.main-nav a {
+  padding: 1em;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.main-nav a:hover {
+  color: #333;
+}
+
+.main-nav .call-to-action {
+  padding: .9em;
+}
+
+.main-nav .call-to-action:hover {
+  color: #fff;
+}
+
+/* --------------------------------
+  Hero
+----------------------------------- */
+
+.hero {
+  height: calc(100vh - 18.867rem);
+  background: url(../img/cover.jpg) no-repeat center / cover #666; 
+  background-blend-mode: multiply;
+  color: #fff;
+}
+
+.hero,
+.social-media-list {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 1.1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+}
+
+.hero .call-to-action:hover {
+  color: #333;
+}
+
+/* --------------------------------
+  Intro
+----------------------------------- */
+
+.intro {
+  padding: 3rem 0;
+}
+
+.intro p,
+.hero h1,
+.title {
+  font-weight: 200;
+}
+
+.intro p {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.intro small {
+  font-size: .9rem;
+}
+
+/* --------------------------------
+  Main : Categories
+----------------------------------- */
+
+.categories {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  background-color: #eee;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: .5em;
+}
+
+.category {
+  padding: 1rem 0;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+/* --------------------------------
+  Main : Brands
+----------------------------------- */
+
+.brands {
+  padding: 1.5rem 0;
+}
+
+.brand h4 {
+  font-size: 2rem;
+  padding: 3rem 0;
+  background-blend-mode: multiply;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.brand {
+  padding: 2.5rem 0;
+}
+
+.title {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  max-width: 27rem;
+}
+
+.title,
+.title + p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title + p {
+  margin-bottom: 1.5rem;
+  max-width: 50rem;
+}
+
+/* --------------------------------
+  Pre Footer
+----------------------------------- */
+
+.pre-footer {
+  background-color: #f0f0f0;
+  padding: 1.9rem 0;
+}
+
+.social-icon a {
+  display: block;
+  padding: .96em 1.14em;
+  font-size: 1.5rem;
+  color: #333;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.social-media-list {
+  cursor: pointer;
+}
+
+.social-media-list:hover .social-icon a {
+  color: rgba(51, 51, 51, .5);
+}
+
+.social-icon a:hover {
+  color: #333!important;
+}
+
+/* --------------------------------
+  Footer
+----------------------------------- */
+
+.main-footer {
+  background-color: #201a16;
+  color: #f1f1f1;
+  padding: 1rem;
+}
+
+.main-footer a {
+  text-decoration: underline;
+}
+
+.main-footer p + p {
+  margin-top: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
