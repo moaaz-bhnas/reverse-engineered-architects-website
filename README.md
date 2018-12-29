@@ -1,7 +1,7 @@
 # Architects Website
 One of a list of complex website layouts I started to reverse-engineer to practice HTML, CSS and responsive web design.
 
-## See Others
+## Other Reverse-engineered Websites
 - [psychologist Personal Website](https://github.com/moaaz-bhnas/reverse-engineered-psychologist-website#psychologist-personal-website)
 - [Web Developer Portfolio](https://github.com/moaaz-bhnas/reverse-engineered-portfolio#web-developer-portfolio)
 - [E-commerce Website](https://github.com/moaaz-bhnas/reverse-engineered-e-commerce-website#e-commerce-website)
